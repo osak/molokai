@@ -211,7 +211,7 @@ if &t_Co > 255
    hi WarningMsg      ctermfg=231 ctermbg=238   cterm=bold
    hi WildMenu        ctermfg=81  ctermbg=16
 
-   hi Comment         ctermfg=59
+   hi Comment         ctermfg=51
    hi CursorColumn                ctermbg=234
    hi ColorColumn                 ctermbg=234
    hi LineNr          ctermfg=250 ctermbg=234
