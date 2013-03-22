@@ -172,7 +172,7 @@ if &t_Co > 255
    hi MatchParen      ctermfg=16  ctermbg=208 cterm=bold
    hi ModeMsg         ctermfg=229
    hi MoreMsg         ctermfg=229
-   hi Operator        ctermfg=161
+   hi Operator        ctermfg=112
 
    " complete menu
    hi Pmenu           ctermfg=81  ctermbg=16
