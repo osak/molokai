@@ -136,16 +136,16 @@ if &t_Co > 255
       hi Normal       ctermfg=252 
       hi CursorLine               ctermbg=234   cterm=none
    endif
-   hi Boolean         ctermfg=135
+   hi Boolean         ctermfg=172               cterm=bold
    hi Character       ctermfg=144
-   hi Number          ctermfg=15
+   hi Number          ctermfg=198
    hi String          ctermfg=207
-   hi Conditional     ctermfg=161               cterm=bold
+   hi Conditional     ctermfg=172               cterm=bold
    hi Constant        ctermfg=135               cterm=bold
    hi Cursor          ctermfg=16  ctermbg=253
    hi Debug           ctermfg=225               cterm=bold
    hi Define          ctermfg=81
-   hi Delimiter       ctermfg=241
+   hi Delimiter       ctermfg=15
 
    hi DiffAdd                     ctermbg=24
    hi DiffChange      ctermfg=181 ctermbg=239
@@ -176,14 +176,14 @@ if &t_Co > 255
 
    " complete menu
    hi Pmenu           ctermfg=81  ctermbg=16
-   hi PmenuSel                    ctermbg=244
+   hi PmenuSel        ctermfg=16  ctermbg=244
    hi PmenuSbar                   ctermbg=232
    hi PmenuThumb      ctermfg=81
 
    hi PreCondit       ctermfg=118               cterm=bold
    hi PreProc         ctermfg=118
    hi Question        ctermfg=81
-   hi Repeat          ctermfg=161               cterm=bold
+   hi Repeat          ctermfg=172               cterm=bold
    hi Search          ctermfg=253 ctermbg=66
 
    " marks column
@@ -202,7 +202,7 @@ if &t_Co > 255
    hi Todo            ctermfg=231 ctermbg=232   cterm=bold
 
    hi Typedef         ctermfg=81
-   hi Type            ctermfg=81                cterm=none
+   hi Type            ctermfg=81                cterm=bold
    hi Underlined      ctermfg=244               cterm=underline
 
    hi VertSplit       ctermfg=244 ctermbg=232   cterm=bold
