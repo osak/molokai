@@ -139,7 +139,7 @@ if &t_Co > 255
    hi Boolean         ctermfg=135
    hi Character       ctermfg=144
    hi Number          ctermfg=15
-   hi String          ctermfg=144
+   hi String          ctermfg=207
    hi Conditional     ctermfg=161               cterm=bold
    hi Constant        ctermfg=135               cterm=bold
    hi Cursor          ctermfg=16  ctermbg=253
@@ -160,7 +160,7 @@ if &t_Co > 255
    hi FoldColumn      ctermfg=67  ctermbg=16
    hi Folded          ctermfg=67  ctermbg=16
    hi Function        ctermfg=118
-   hi Identifier      ctermfg=208               cterm=none
+   hi Identifier      ctermfg=87               cterm=none
    hi Ignore          ctermfg=244 ctermbg=232
    hi IncSearch       ctermfg=193 ctermbg=16
 
@@ -192,7 +192,7 @@ if &t_Co > 255
    hi SpecialComment  ctermfg=245               cterm=bold
    hi Special         ctermfg=81 
 
-   hi Statement       ctermfg=161               cterm=bold
+   hi Statement       ctermfg=172               cterm=bold
    hi StatusLine      ctermfg=238 ctermbg=253
    hi StatusLineNC    ctermfg=244 ctermbg=232
    hi StorageClass    ctermfg=208
