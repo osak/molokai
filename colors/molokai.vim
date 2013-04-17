@@ -156,7 +156,7 @@ if &t_Co > 255
    hi Error           ctermfg=219 ctermbg=89
    hi ErrorMsg        ctermfg=199 ctermbg=16    cterm=bold
    hi Exception       ctermfg=118               cterm=bold
-   hi Float           ctermfg=135
+   hi Float           ctermfg=198
    hi FoldColumn      ctermfg=67  ctermbg=16
    hi Folded          ctermfg=67  ctermbg=16
    hi Function        ctermfg=118
@@ -193,8 +193,8 @@ if &t_Co > 255
    hi Special         ctermfg=81 
 
    hi Statement       ctermfg=172               cterm=bold
-   hi StatusLine      ctermfg=238 ctermbg=253
-   hi StatusLineNC    ctermfg=244 ctermbg=232
+   hi StatusLine      ctermfg=142 ctermbg=0
+   hi StatusLineNC    ctermfg=240  ctermbg=15
    hi StorageClass    ctermfg=208
    hi Structure       ctermfg=81
    hi Tag             ctermfg=161
